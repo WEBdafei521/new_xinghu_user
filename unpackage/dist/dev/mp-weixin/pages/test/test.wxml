@@ -1,0 +1,1 @@
+<view><view class="pc-container"><image src="{{imgurl}}" mode="aspectFill" data-event-opts="{{[['longpress',[['saveImage',['$event']]]]]}}" bindlongpress="__e"></image><canvas hidden="{{!(canvasShow)}}" style="width:590rpx;height:998rpx;" canvas-id="mycanvas"></canvas></view></view>

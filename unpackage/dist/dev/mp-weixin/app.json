@@ -1,0 +1,24 @@
+{
+  "pages": [
+    "pages/openService/openService",
+    "pages/auth/auth",
+    "pages/live/live",
+    "pages/index/index",
+    "components/switch/switch",
+    "pages/myPage/myPage",
+    "pages/test/test",
+    "pages/backVideo/backVideo",
+    "pages/live-player/live-player",
+    "pages/pusher/pusher",
+    "pages/editpusher/editpusher",
+    "pages/test2/test2"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "usingComponents": {}
+}

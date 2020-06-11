@@ -1,0 +1,42 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*每个页面公共css */
+.dis{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+}
+.cl{
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+}
+.al_c{
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.j_c{
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+}
+.aro{
+	-webkit-justify-content: space-around;
+	        justify-content: space-around;
+}
+

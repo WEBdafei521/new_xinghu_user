@@ -1,0 +1,87 @@
+{
+  "description": "项目配置文件。",
+  "packOptions": {
+    "ignore": []
+  },
+  "setting": {
+    "urlCheck": false,
+    "es6": true
+  },
+  "compileType": "miniprogram",
+  "libVersion": "2.9.2",
+  "appid": "touristappid",
+  "projectname": "app",
+  "condition": {
+    "search": {
+      "current": -1,
+      "list": []
+    },
+    "conversation": {
+      "current": -1,
+      "list": []
+    },
+    "game": {
+      "current": -1,
+      "list": []
+    },
+    "miniprogram": {
+      "current": 0,
+      "list": [
+        {
+          "name": "直播回放",
+          "query": "interval=4000&autoplay=false",
+          "id": 0,
+          "pathName": "pages/backVideo/backVideo"
+        },
+        {
+          "name": "我的主页",
+          "query": "interval=4000&autoplay=false",
+          "id": 1,
+          "pathName": "pages/myPage/myPage"
+        },
+        {
+          "name": "测试页面",
+          "query": "interval=4000&autoplay=false",
+          "id": 2,
+          "pathName": "pages/test/test"
+        },
+        {
+          "name": "开通特权",
+          "query": "interval=4000&autoplay=false",
+          "id": 3,
+          "pathName": "pages/openService/openService"
+        },
+        {
+          "name": "实名认证",
+          "query": "interval=4000&autoplay=false",
+          "id": 4,
+          "pathName": "pages/auth/auth"
+        },
+        {
+          "name": "直播页面",
+          "query": "interval=4000&autoplay=false",
+          "id": 5,
+          "pathName": "pages/live/live"
+        },
+        {
+          "name": "推流页面",
+          "query": "interval=4000&autoplay=false",
+          "id": 6,
+          "pathName": "pages/pusher/pusher"
+        },
+        {
+          "name": "编辑内容",
+          "query": "interval=4000&autoplay=false",
+          "id": 7,
+          "pathName": "pages/editpusher/editpusher"
+        },
+        {
+          "name": "分享海报",
+          "query": "interval=4000&autoplay=false",
+          "id": 8,
+          "pathName": "pages/test2/test2"
+        }
+      ]
+    }
+  }
+}
